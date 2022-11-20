@@ -1,0 +1,27 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color:#1F2937 ;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.logo{
+    font-weight: bold;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 12px;
+}
+
+.topLinks a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
