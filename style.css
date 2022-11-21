@@ -1,4 +1,4 @@
-.header{
+.header{                                        /*top heading containing logo and links*/
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -28,7 +28,7 @@ ul{
     color: #E5E7EB;
 }
 
-.subHead{
+.subHead{                                       /*sub heading containing title and image*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,16 +72,19 @@ button{
     padding-bottom: 10px;
 }
 
-.cardHeading{
+.cardHeading{                                   /* cards containing 4 images with text*/
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 50px;
+    font-size: 36px;
 }
 
 .cards{
     display: flex;
     justify-content: center;
     gap: 50px;
+    padding-bottom: 100px;
 }
 
 .imageText{
@@ -109,3 +112,27 @@ button{
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+.mid{                               /*Quote section*/             
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+    padding-top: 175px;
+    padding-bottom: 175px;
+}
+
+
+.quote{
+    font-size: 36px; 
+    font-style: italic;
+    width: 50%;
+}
+
+.quoteCredit{
+    display: flex;
+    font-weight: bold;
+    width: 50%;
+    justify-content: end;
+}
+
