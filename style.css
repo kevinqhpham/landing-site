@@ -44,6 +44,7 @@ ul{
 
 .right{
     background-color: grey;
+    height: 250px;
 }
 
 .heroMain{
@@ -135,4 +136,49 @@ button{
     width: 50%;
     justify-content: end;
 }
+                                        
+.bot{         /*Call to action*/
+    display: flex;      
+    justify-content: center;    
+    margin-top: 100px;
+    margin-bottom: 100px;
+}                               
+.action{                       
+    display: flex;
+    background-color:#3882F6;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 90px;
+    padding-right: 90px;
+    border-radius: 4px;
+    gap: 100px;
+}
+
+.call, .subCall{
+    color: white;
+    font-size: 24px;
+}
+
+.call{
+    font-weight: bold;
+}
+
+.rightCall{
+    display: flex;
+    border: 2px solid white;
+    border-radius: 8px;
+    align-items: center;
+    height: 70%;
+}
+
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
 
